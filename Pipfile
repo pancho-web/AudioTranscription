@@ -7,8 +7,11 @@ name = "pypi"
 docx = "==0.2.4"
 moviepy = "==1.0.3"
 pytube = "==11.0.1"
+speechrecognition = "*"
+autopep8 = "*"
 
 [dev-packages]
+isort = "*"
 
 [requires]
 python_version = "3.9"
