@@ -1,5 +1,6 @@
-from speech_recognition import AudioFile
 from moviepy.editor import *
+from speech_recognition import AudioFile
+
 my_audio = AudioFileClip("Lab.wav")
 
 clip_1 = my_audio.subclip(180, 294)
